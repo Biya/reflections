@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	the file .git is created. NO commit is created.
+	I need to do it to track versions of my files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	staging area contains the tracked file(s). the repository contain different versions of tracked files. 
+	In a working directory, you can choose the files you want to track.
+

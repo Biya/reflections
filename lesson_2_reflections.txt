@@ -8,3 +8,25 @@ How is the staging area different from the working directory and the repository?
 	staging area contains the tracked file(s). the repository contain different versions of tracked files. 
 	In a working directory, you can choose the files you want to track.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	One save in the staging area per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	To experiment some changes while keeping the development of the project.
+	The branches allow to come back to the main project if the experiment does
+
+How do the diagrams help you visualize the branch structure?
+
+	It looks a drawing, it makes things easier to understand and visualize
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The new commit has parents in 2 branches. Parts developped in the 2 branches are useable in the merged commit
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	If there is no conflict it is faster.
+	Even in case of conflict, you don't spend time because you have to find the conflict.
+	Manual is so perfect and can take so much time. But time is money.
